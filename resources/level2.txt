@@ -1,0 +1,2 @@
+e:easy
+definitions/level2_definitions.txt

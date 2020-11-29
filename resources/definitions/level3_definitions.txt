@@ -1,0 +1,23 @@
+
+# Level 3
+# the third level
+
+START_LEVEL
+level_name:Green 3
+ball_velocities:38,7 -43,7
+background:image(background_images/lion.jpg)
+paddle_speed:10
+paddle_width:85
+block_definitions:definitions/jungle_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:120
+row_height:20
+num_blocks:40
+START_BLOCKS
+-----zzzzzzzzzz
+------zzzzzzzzz
+-------zzzzzzzz
+--------zzzzzzz
+---------zzzzzz
+END_BLOCKS
+END_LEVEL

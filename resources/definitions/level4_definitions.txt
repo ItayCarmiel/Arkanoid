@@ -1,0 +1,25 @@
+
+# Level 4
+# the final four level
+
+START_LEVEL
+level_name:Final four
+ball_velocities:-30,7 0,7 30,7
+background:image(background_images/basket.jpg)
+paddle_speed:10
+paddle_width:85
+block_definitions:definitions/basketball_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:120
+row_height:20
+num_blocks:105
+START_BLOCKS
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+END_BLOCKS
+END_LEVEL

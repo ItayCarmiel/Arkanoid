@@ -1,0 +1,95 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Direct Hit
+ball_velocities:-12,5
+background:image(background_images/goal.jpg)
+paddle_speed:12
+paddle_width:85
+block_definitions:definitions/soccerball_block_definitions.txt
+blocks_start_x:270
+blocks_start_y:120
+row_height:20
+num_blocks:1
+START_BLOCKS
+b
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Wide Easy
+ball_velocities:72,5 56,5 40,5 24,5 8,5 -8,5 -24,5 -40,5
+background:image(background_images/bridge.jpg)
+paddle_speed:6
+paddle_width:500
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:250
+row_height:20
+num_blocks:20
+START_BLOCKS
+wwppbbgggyyoorr
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+# Level 3
+# the third level
+
+START_LEVEL
+level_name:Green 3
+ball_velocities:38,7 -43,7
+background:image(background_images/lion.jpg)
+paddle_speed:10
+paddle_width:85
+block_definitions:definitions/jungle_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:120
+row_height:20
+num_blocks:40
+START_BLOCKS
+-----zzzzzzzzzz
+------zzzzzzzzz
+-------zzzzzzzz
+--------zzzzzzz
+---------zzzzzz
+END_BLOCKS
+END_LEVEL
+
+
+
+# Level 4
+# the final four level
+
+START_LEVEL
+level_name:Final four
+ball_velocities:-30,7 0,7 30,7
+background:image(background_images/basket.jpg)
+paddle_speed:10
+paddle_width:85
+block_definitions:definitions/basketball_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:120
+row_height:20
+num_blocks:105
+START_BLOCKS
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbb
+END_BLOCKS
+END_LEVEL

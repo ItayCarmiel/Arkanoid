@@ -1,0 +1,20 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Direct Hit
+ball_velocities:-12,5
+background:image(background_images/goal.jpg)
+paddle_speed:12
+paddle_width:85
+block_definitions:definitions/soccerball_block_definitions.txt
+blocks_start_x:270
+blocks_start_y:120
+row_height:20
+num_blocks:1
+START_BLOCKS
+b
+END_BLOCKS
+END_LEVEL
